@@ -14,13 +14,7 @@ public class GiantTortoises extends ReptilesAndAmphibians {
 	public String toString() {
 		return "GiantTortoises [isReptile=" + isReptile + ", name=" + name + ", age=" + age + ", gender=" + gender
 				+ ", color=" + color + ", adult=" + adult + ", alive=" + alive + ", carnivorous=" + carnivorous
-				+ ", geographicHabitat=" + geographicHabitat + ", isReptile()=" + isReptile() + ", isHasShell()="
-				+ isHasShell() + ", isLivesOnLand()=" + isLivesOnLand() + ", getNumLimbs()=" + getNumLimbs()
-				+ ", getNumEggs()=" + getNumEggs() + ", isVenomous()=" + isVenomous() + ", getName()=" + getName()
-				+ ", getAge()=" + getAge() + ", getGender()=" + getGender() + ", getColor()=" + getColor()
-				+ ", isAdult()=" + isAdult() + ", isAlive()=" + isAlive() + ", isCarnivorous()=" + isCarnivorous()
-				+ ", getGeographicHabitat()=" + getGeographicHabitat() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + ", toString()=" + super.toString() + "]";
+				+ ", geographicHabitat=" + geographicHabitat;
 	}
 
 }

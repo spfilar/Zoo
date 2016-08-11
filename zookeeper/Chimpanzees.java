@@ -14,13 +14,7 @@ public class Chimpanzees extends Primates {
 	public String toString() {
 		return "Chimpanzees [name=" + name + ", age=" + age + ", gender=" + gender + ", color=" + color + ", adult="
 				+ adult + ", alive=" + alive + ", carnivorous=" + carnivorous + ", geographicHabitat="
-				+ geographicHabitat + ", getNumOffspring()=" + getNumOffspring() + ", isLivesInTrees()="
-				+ isLivesInTrees() + ", isHasOpposableThumbs()=" + isHasOpposableThumbs() + ", isHasPrehensileTail()="
-				+ isHasPrehensileTail() + ", getSocialStructure()=" + getSocialStructure() + ", getName()=" + getName()
-				+ ", getAge()=" + getAge() + ", getGender()=" + getGender() + ", getColor()=" + getColor()
-				+ ", isAdult()=" + isAdult() + ", isAlive()=" + isAlive() + ", isCarnivorous()=" + isCarnivorous()
-				+ ", getGeographicHabitat()=" + getGeographicHabitat() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + ", toString()=" + super.toString() + "]";
+				+ geographicHabitat;
 	}
 
 }

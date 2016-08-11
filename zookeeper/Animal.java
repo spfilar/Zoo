@@ -23,6 +23,15 @@ public class Animal {
 		this.carnivorous = carnivorous;
 		this.geographicHabitat = geographicHabitat;
 	}
+	
+	public void isAnAdult() {
+		String isAnAdult; 
+		if (adult = true) {
+			isAnAdult = "an adult";
+		} else {
+			isAnAdult = "not an adult";
+		}
+	}
 
 	public String getName() {
 		return name;

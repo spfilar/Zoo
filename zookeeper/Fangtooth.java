@@ -13,12 +13,7 @@ public class Fangtooth extends Fish {
 	public String toString() {
 		return "Fangtooth [name=" + name + ", age=" + age + ", gender=" + gender + ", color=" + color + ", adult="
 				+ adult + ", alive=" + alive + ", carnivorous=" + carnivorous + ", geographicHabitat="
-				+ geographicHabitat + ", getNumEggs()=" + getNumEggs() + ", getNumFins()=" + getNumFins()
-				+ ", isSaltWater()=" + isSaltWater() + ", isScales()=" + isScales() + ", getName()=" + getName()
-				+ ", getAge()=" + getAge() + ", getGender()=" + getGender() + ", getColor()=" + getColor()
-				+ ", isAdult()=" + isAdult() + ", isAlive()=" + isAlive() + ", isCarnivorous()=" + isCarnivorous()
-				+ ", getGeographicHabitat()=" + getGeographicHabitat() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + ", toString()=" + super.toString() + "]";
+				+ geographicHabitat;
 	}
 
 }
